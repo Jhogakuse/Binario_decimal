@@ -1,4 +1,6 @@
 # Binario_decimal
-00000001
+00000002
 
-Es una app que convierte numeros decimales a binarios y biceversa
+Es una app creada con android studio 
+que convierte numeros decimales a binarios y biceversa
+
