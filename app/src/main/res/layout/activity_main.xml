@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jho.ekt.decimalbin10.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Ingresa un número"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/activity1_txtvalor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="Número"
+        android:maxLength="9"/>
+
+    <Button
+        android:id="@+id/activity1_btnB2D"
+        android:text="Binario a Decimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/activity1_btnD2B"
+        android:text="Decimal a Binario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+</LinearLayout>
